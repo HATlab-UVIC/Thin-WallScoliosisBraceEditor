@@ -20,10 +20,10 @@ public class SceneObjectPlacer : MonoBehaviour {
             //.transform.localScale = ObjectPositionManager.Instance.objectScales[ 0 ];
 
             patientModel.transform.SetLocalPositionAndRotation( ObjectPositionManager.Instance.objectPositions[ 1 ], ObjectPositionManager.Instance.objectRotations[ 1 ] );
-            patientModel.transform.localScale = ObjectPositionManager.Instance.objectScales[ 1 ];
+            //patientModel.transform.localScale = ObjectPositionManager.Instance.objectScales[ 1 ];
         }
 
         
-        patientModel.transform.SetParent( scoliosisBrace.transform );
+        //patientModel.transform.SetParent( scoliosisBrace.transform );
     }
 }

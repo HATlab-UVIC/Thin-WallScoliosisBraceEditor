@@ -474,7 +474,19 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 800807892}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: SetParent
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1151388028224709368}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -2031,13 +2043,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842595618}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.13000003, y: 0, z: -0.01600002}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.452, y: 0.23449998, z: 1.3178815}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 138055302}
-  m_Father: {fileID: 1732073584}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &842595623
 MonoBehaviour:
@@ -2594,7 +2606,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1732073584
 Transform:
   m_ObjectHideFlags: 0
@@ -2607,8 +2619,7 @@ Transform:
   m_LocalPosition: {x: -0.582, y: 0.2505, z: 1.3178815}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 842595622}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1732073586
@@ -3943,7 +3954,7 @@ Transform:
   m_GameObject: {fileID: 8164078559394743192}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.078459114, w: 0.99691737}
-  m_LocalPosition: {x: -0.464, y: -0.349, z: 0}
+  m_LocalPosition: {x: -1.653, y: -0.349, z: 0}
   m_LocalScale: {x: 0.0010000004, y: 0.0010000004, z: 0.001}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9156,7 +9167,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &8164078559394743195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10006,6 +10017,7 @@ SceneRoots:
   - {fileID: 1531117991619149616}
   - {fileID: 2680377480121242576}
   - {fileID: 395857957}
+  - {fileID: 842595622}
+  - {fileID: 1732073584}
   - {fileID: 86197244}
   - {fileID: 369180043}
-  - {fileID: 1732073584}
