@@ -22,8 +22,8 @@ public class LoadNewScene : MonoBehaviour {
     }
 
     private void SaveObjectTransforms () {
-        ObjectPositionManager.Instance.objectPositions[ 0 ] = image.transform.position ;
-        ObjectPositionManager.Instance.objectPositions[ 1 ] = patientModel.transform.localPosition + new Vector3( 0, 0, 1.3f );
+        ObjectPositionManager.Instance.objectPositions[ 0 ] = image.transform.position;
+        ObjectPositionManager.Instance.objectPositions[ 1 ] = patientModel.transform.position;
 
         ObjectPositionManager.Instance.objectRotations[ 0 ] = image.transform.localRotation;
         ObjectPositionManager.Instance.objectRotations[ 1 ] = patientModel.transform.localRotation;
