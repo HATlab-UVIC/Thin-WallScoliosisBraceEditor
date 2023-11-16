@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="IMG_45921" size="0.048000 0.049019" />
+    <ImageTarget name="IMG_45911" size="0.048000 0.049115" />
+    <ImageTarget name="IMG_4614" size="0.048000 0.048615" />
+    <ImageTarget name="IMG_4613" size="0.048000 0.046359" />
+    <ImageTarget name="IMG_4591" size="0.116000 0.118695" />
+    <ImageTarget name="IMG_4592" size="0.100000 0.102124" />
+    <ImageTarget name="original-58B5109C-0D26-4EAA-9D06-38F882EBDA7E" size="0.130000 0.123646" />
+    <ImageTarget name="imageedit_7_23161615681" size="0.250000 0.433594" />
+    <ImageTarget name="imageedit_7_2316161568" size="0.093000 0.161297" />
+    <ImageTarget name="IMG_4558" size="0.075000 0.121667" />
+    <ImageTarget name="IMG_4557" size="0.075000 0.130064" />
+    <ImageTarget name="thumbnail_IMG_4555" size="0.123000 0.194487" />
+    <ImageTarget name="6x6" size="0.093000 0.093000" />
+    <ImageTarget name="1ztBoF0wRtFeqViMk0akBA" size="0.080000 0.080000" />
+    <ImageTarget name="4x4" size="0.093000 0.093000" />
+    <ImageTarget name="IMG_42351" size="0.200000 0.198350" />
+    <ImageTarget name="IMG_45281" size="0.100000 0.094029" />
+    <ImageTarget name="IMG_45291" size="0.100000 0.097793" />
+    <ImageTarget name="output-onlinejpgtools" size="0.170000 0.168598" />
+    <ImageTarget name="IMG_4235" size="0.170000 0.168598" />
+    <ImageTarget name="IMG_4528" size="0.100000 0.094029" />
+    <ImageTarget name="IMG_4529" size="0.100000 0.097793" />
+  </Tracking>
+</QCARConfig>
