@@ -5,7 +5,7 @@ using Vuforia;
 
 public class CameraController : MonoBehaviour {
     private bool isCameraEnabled = true;
-    private float interval = 1.0f; // Interval in seconds
+    private float interval = 5.0f; // Interval in seconds
 
     void Start () {
         StartCoroutine( ToggleCamera() );
@@ -22,7 +22,7 @@ public class CameraController : MonoBehaviour {
             } else {
                 //CameraDevice.Instance.Init();
                 //CameraDevice.Instance.Start();
-                VuforiaBehaviour.Instance.enabled = false;
+                VuforiaBehaviour.Instance.enabled = true;
             }
 
             isCameraEnabled = !isCameraEnabled;
