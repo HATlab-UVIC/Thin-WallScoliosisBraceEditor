@@ -1,5 +1,7 @@
 # Thin-WallScoliosisBraceEditor
 
+NOTE : This is not the current developing version of this project. The current one can be found [here](https://github.com/HATlab-UVIC/MagicLeap-ThinWallScoliosisBraceEditor).
+
 This project is the ongoing development of an augmented reality application for the fitting of scoliosis brace in an effort to streamline the farbication process. 
 
 ## Required Materials
